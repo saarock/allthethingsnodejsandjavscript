@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello World</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+.main {
+    background-color: #006;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+        ul {
+            display: flex;
+        }
+
+        li {
+            margin-left: 2.5rem;
+            list-style-type: none;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 1.6rem;
+            color: white;
+        }
+
+        li:hover {
+            background-color: #004;
+            color: rosybrown;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<!-- <h1 th:text = " 'Thymeleaf' + ${message} + 'App'"></h1> -->
+<div class="main">
+    <nav>
+        <ul>
+            <li>Profile Photo</li>
+            <li>Cover Photo</li>
+            <li>Videos</li>
+          
+        </ul>
+    </nav>
+</div>
+</body>
+</html>

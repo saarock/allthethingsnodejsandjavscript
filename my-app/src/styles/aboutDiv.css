@@ -1,0 +1,57 @@
+.aboutDiv {
+    /* margin-top: 1rem; */
+    /* border-radius: 2rem; */
+    /* height: 34rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.abBtn {
+    height: 3rem;
+}
+
+
+.aboutForm {
+    margin-top: 7rem;
+}
+
+.blogtext {
+    background-color: antiquewhite;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+
+}
+
+.ff {
+    display: flex;
+align-items: center;
+    flex-direction: column;
+
+    }
+
+
+    .inputPrice {
+
+        margin-top: 2rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        color: blue;
+        font-size: 1.2rem;
+        width: 10rem;
+    }
+
+    .cur {
+        margin-top: 2rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        color: blue;
+        font-size: 1.2rem;
+        width: 10rem;
+        margin-left: 2rem;
+    }

@@ -1,0 +1,184 @@
+
+
+.mainud {
+    display: flex;
+    /* align-items: center; */
+    /* justify-self: center; */
+}
+.side-setting {
+    /* background-color: rebeccapurple; */
+    position: absolute;
+    position: sticky;
+    /* left: -12rem; */
+    /* left: 0; */
+    /* width: 100%; */
+    height: 56rem;
+    top: 5rem;
+    overflow: scroll;
+    width: 12rem;
+    text-align: center;
+    
+  
+}
+
+
+
+
+
+.side-setting h1 {
+    color: red;
+   
+}
+
+.uploadphotostosee {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 2rem; */
+}
+
+.photossee {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 9rem;
+    margin-right: 4rem;
+    
+    
+}
+
+
+.likeicons {
+    display: flex;
+ justify-content: center;
+ /* font-size: 1.3rem; */
+
+}
+
+.like {
+    color: aqua;
+    cursor: pointer;
+ font-size: 1.3rem;
+
+}
+
+.unlike {
+    color: red;
+    cursor: pointer;
+ font-size: 1.3rem;
+}
+
+.comments {
+    font-size: 1rem;
+
+}
+
+.coombtn {
+    margin: 0 2rem 0 2rem;
+}
+.namewho {
+    text-align: center;
+    color: red;
+}
+
+.who {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: red;
+}
+
+.showcomments {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.textC {
+    /* background-color: rebeccapurple; */
+    height: 3rem;
+    width: 36rem;
+
+}
+
+.postComment {
+    margin-top: 0.3rem;
+    background-color: aqua;
+    width: 5rem;
+}
+
+.iiC{
+    display: flex;
+    color: red;
+    flex-direction: column;
+    position: absolute;
+    /* right: 0; */
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: aquamarine; */
+    position: sticky;
+    height: 56rem;
+    top: 5rem;
+    overflow: scroll;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 8rem;
+    /* float: right; */
+    text-align: center;
+}
+
+.pnav {
+    color: blue;
+}
+.allshowcomandlike {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+.seeLikes {
+    margin-top: 0.3rem;
+    background-color: aqua;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+
+    /* width: 5rem; */
+}
+
+.seeComments {
+    margin-top: 0.3rem;
+    background-color: aqua;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.cName {
+    color: brown;
+}
+
+.bigdiv {
+    display: none;
+}
+
+.ab {
+    font-size: 1rem;
+    color: red;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fr {
+    font-size: 1rem;
+    color: blue;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
